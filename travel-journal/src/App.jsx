@@ -1,9 +1,14 @@
 import './App.css'
 
-import {Main} from './Main'
+
+import {Header} from "./Components/Header"
+import {Entry} from "./Components/Entry"
 
 export function App() {
-  return(
-    <Main/>
-  )
+    return (
+        <div className="main-container">
+           <Header/>
+           <Entry/>
+        </div>
+    )
 }

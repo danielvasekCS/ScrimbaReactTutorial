@@ -1,0 +1,34 @@
+
+.main-container{
+
+  height: 704px;
+  /* width: 550px; */
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+  height: 55px;
+  gap: 7px;
+
+}
+
+.header-container > h1 {
+
+
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14.46px;
+  letter-spacing: -7.5%;
+  color: #FFFFFF;
+}
+
+.globe {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
